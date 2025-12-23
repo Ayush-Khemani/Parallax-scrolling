@@ -13,12 +13,5 @@ window.addEventListener("scroll", () => {
     const rock = document.querySelector(`.rock-${i}`);
     if(rock) rock.style.transform = `translateY(${-s*(0.2 + i*0.05)}px)`;
   }
-
-  // Clouds
-  document.querySelector(".cloud-1").style.transform = `translateY(${-s*0.1}px) translateX(${s*0.05}px)`;
-  document.querySelector(".cloud-2").style.transform = `translateY(${-s*0.15}px) translateX(${-s*0.03}px)`;
-
-  // Birds
-  document.querySelector(".bird-1").style.transform = `translateY(${-s*0.25}px) translateX(${s*0.1}px)`;
-  document.querySelector(".bird-2").style.transform = `translateY(${-s*0.2}px) translateX(${-s*0.08}px)`;
+  
 });
